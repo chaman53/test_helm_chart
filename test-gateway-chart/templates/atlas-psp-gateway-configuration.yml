@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-gateway-configuration
+data:
+  test-gateway-configuration.yml: |
+    spring:
+      cloud:
