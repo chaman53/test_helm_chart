@@ -1,5 +1,12 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: pre-install-job
-# ... job configuration ...
+  name: aws-secrets-pre-install-job
+spec:
+  template:
+    spec:
+      containers:
+        - name: pre-install-container
+          image: your-pre-install-image:tag
+          # Add other container settings as needed
+      restartPolicy: OnFailure
