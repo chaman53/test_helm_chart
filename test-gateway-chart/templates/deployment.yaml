@@ -65,4 +65,4 @@ spec:
         {{- toYaml . | nindent 8 }}
       {{- end }}
 ---
-{{- include "test-gateway-chart.aws-secret-pre-install-job" . | nindent 4 }}
+{{- include "test-gateway.aws-secret-pre-install-job" . | nindent 4 }}
