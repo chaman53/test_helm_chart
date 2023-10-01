@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6275b64e-7418-4db9-9120-77668b8bbab6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/aws-secret-pre-install-job.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/aws-secret-pre-install-job.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="6275b64e-7418-4db9-9120-77668b8bbab6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696110234983</updated>
-      <workItem from="1696110236232" duration="3271000" />
+      <workItem from="1696110236232" duration="3871000" />
     </task>
     <servers />
   </component>

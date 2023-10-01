@@ -24,6 +24,6 @@ spec:
               - configMapRef:
                   name: test-gateway-configmap-env
               image: {{ .Values.cronjob.image }}
-              imagePullPolicy: IfNotPresent
+              imagePullPolicy: Never
               name: {{ .Values.cronjob.name }}
           restartPolicy: Never
