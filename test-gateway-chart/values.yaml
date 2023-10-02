@@ -71,3 +71,5 @@ affinity: {}
 cronjob:
   name: test-gateway-job
   image: gtsopour/awscli-kubectl:latest
+preInstall:
+  enabled: true
