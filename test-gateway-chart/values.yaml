@@ -8,8 +8,8 @@ image:
 imagePullSecrets:
   - name: regcred
 
-nameOverride: "test-gateway"
-fullnameOverride: "test-gateway"
+nameOverride: ""
+fullnameOverride: ""
 
 serviceAccount:
   create: true
