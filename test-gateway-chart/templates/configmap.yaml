@@ -7,4 +7,4 @@ metadata:
 data:
   REGION: us-east-1
   ECR_REPOSITORY: 735595018165.dkr.ecr.us-east-1.amazonaws.com/gateway
-  SECRET_NAME: awsecr-cred
+  SECRET_NAME: regcred
