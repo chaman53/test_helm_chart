@@ -12,9 +12,9 @@ nameOverride: ""
 fullnameOverride: ""
 
 serviceAccount:
-  create: true
+  create: false
   annotations: {}
-  name: "test-gateway"
+  name: "sa-health-check"
 
 podAnnotations: {}
 
