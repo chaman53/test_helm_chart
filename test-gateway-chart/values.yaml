@@ -4,17 +4,19 @@ image:
   repository: 735595018165.dkr.ecr.us-east-1.amazonaws.com/gateway
   pullPolicy: Always
   tag: 0.0.1
+  pullSecrets:
+    - name: regcred 
 
 imagePullSecrets:
   - name: regcred
 
-nameOverride: ""
-fullnameOverride: ""
+nameOverride: "test-gateway"
+fullnameOverride: "test-gateway"
 
 serviceAccount:
-  create: false
+  create: true
   annotations: {}
-  name: "sa-health-check"
+  name: "test-gateway"
 
 podAnnotations: {}
 
