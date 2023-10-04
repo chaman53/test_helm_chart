@@ -73,3 +73,6 @@ affinity: {}
 cronjob:
   name: test-gateway-job
   image: gtsopour/awscli-kubectl:latest
+job:
+  name: aws-secret-pre-install-job
+  image: odaniait/aws-kubectl:latest
