@@ -1,5 +1,5 @@
 kubectl create clusterrole sa-health-check \
-          --verb=get --verb=list --verb=create --verb=update  \
+          --verb=get --verb=list --verb=create --verb=delete  \
           --resource=secret \
           --namespace=default
 
