@@ -14,9 +14,9 @@ nameOverride: "test-gateway"
 fullnameOverride: "test-gateway"
 
 serviceAccount:
-  create: true
+  create: false
   annotations: {}
-  name: "test-gateway"
+  name: "sa-health-check"
 
 podAnnotations: {}
 
